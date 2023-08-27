@@ -22,7 +22,7 @@ class SampleMultiRecord extends AppModel {
 	}
 
 	/**
-	 * 管理側用の人気記事ランキングを取得する
+	 * 複数レコードをまとめて取得する
 	 * @param int $blogCategoryId
 	 * @return array
 	 */
