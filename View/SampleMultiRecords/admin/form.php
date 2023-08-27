@@ -3,9 +3,6 @@
  * [ADMIN] サンプルマルチレコード設定
  * @var \BcAppView $this
  */
-$SampleMultiRecordModel = ClassRegistry::init('SampleMultiRecord.SampleMultiRecord');
-$validateMessage = $SampleMultiRecordModel->validationErrors;
-$hoge = 1;
 ?>
 <?php echo $this->BcForm->create('SampleMultiRecord', [
 	'url' => [
